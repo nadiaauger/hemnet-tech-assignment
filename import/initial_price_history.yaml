@@ -1,15 +1,25 @@
----
 premium:
   - amount_cents: 55500
+    municipality_id: 1
   - amount_cents: 66600
+    municipality_id: 2
   - amount_cents: 77700
+    municipality_id: 3
   - amount_cents: 88800
+    municipality_id: 4
 
 plus:
   - amount_cents: 19900
+    municipality_id: 1
   - amount_cents: 29900
+    municipality_id: 2
+  - amount_cents: 29400
+    municipality_id: 2
   - amount_cents: 39900
+    municipality_id: 3
 
 basic:
   - amount_cents: 5000
+    municipality_id: 1
   - amount_cents: 10000
+    municipality_id: 2

@@ -9,6 +9,10 @@ Package.insert_all(
   YAML.load_file(Rails.root.join("import/packages.yaml"))
 )
 
+Municipality.insert_all(
+  YAML.load_file(Rails.root.join("import/municipalities.yaml"))
+)
+
 premium = Package.find_by!(name: "premium")
 plus = Package.find_by!(name: "plus")
 basic = Package.find_by!(name: "basic")
